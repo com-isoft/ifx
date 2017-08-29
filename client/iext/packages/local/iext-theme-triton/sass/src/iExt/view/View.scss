@@ -1,0 +1,43 @@
+.ix-data-view {
+    .x-view-item-focused {
+        outline: none !important;
+    }
+}
+
+.ix-view-item {
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+    border: solid 1px #a8a8a8;
+    border-radius: 1px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+.ix-view-item-over {
+    background-color: #f5f5f5;
+}
+
+.ix-view-item-selected {
+    outline: none !important;
+    border-color: #515081;
+    background-color: #ece9c2;
+}
+
+
+/* 去掉数据项的边框 */
+
+.ix-view-noborder {
+    .ix-view-item {
+        border: none;
+    }
+    .ix-view-item-selected {
+        border: none;
+    }
+}
+
+.ix-view-mask {
+    background-color: #e8e8e8 !important;
+}

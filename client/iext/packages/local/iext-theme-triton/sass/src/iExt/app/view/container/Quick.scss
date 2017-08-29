@@ -1,0 +1,22 @@
+.ix-app-card {
+    .ix-quick-container-body {
+        border-left: solid 1px #afafb6 !important;
+        border-top: solid 1px #afafb6 !important;
+    }
+}
+
+.ix-app-tab {
+    .ix-quick-container {
+        .x-panel-header-default {
+            background-color: #f0eeee;
+        }
+        .x-tool-tool-el {
+            background-color: #f0eeee;
+        }
+    }
+    .ix-quick-container-body {
+        border-top: solid 1px #afafb6 !important;
+        border-left: solid 1px #afafb6 !important;
+        border-radius: 2px;
+    }
+}

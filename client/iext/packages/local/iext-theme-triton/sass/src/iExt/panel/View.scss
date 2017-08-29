@@ -1,0 +1,15 @@
+.ix-view-panel {
+    .x-view-item-focused {
+        outline-width: 0 !important;
+    }
+}
+
+.ix-view-body {
+    border-top: solid 1px #adadad !important;
+}
+
+.ix-list-container-body {
+    .ix-view-body {
+        border-top-width: 0 !important;
+    }
+}

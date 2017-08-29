@@ -1,0 +1,33 @@
+.apps-body {
+    padding: $apps-body-padding-top;
+    background-color: $apps-body-back-color;
+    .x-autocontainer-innerCt {
+        //vertical-align: middle;
+        >* {
+            margin: auto;
+        }
+    }
+    .x-view-item-focused {
+        outline: dashed 1px $apps-item-focused-outline-color !important;
+    }
+    .x-item-selected {
+        outline: solid 1px $apps-item-selected-outline-color !important;
+        background-color: $apps-item-selected-back-color;
+    }
+}
+
+.apps-item {
+    float: left;
+    text-align: center;
+    width: $apps-item-width;
+    padding: $apps-item-padding;
+    margin: $apps-item-margin;
+}
+
+.apps-item h3 {
+    text-align: center;
+    font-size: $apps-item-title-font-size;
+    color: $apps-item-title-color;
+    padding-top: $apps-item-title-padding-top;
+    margin: $apps-item-title-margin;
+}

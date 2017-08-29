@@ -1,0 +1,24 @@
+{
+    "name": "iext-core",
+    "namespace": "",
+    "type": "code",
+    "creator": "iSoft",
+    "summary": "iext core",
+    "detailedDescription": "iSoft ext framework core.",
+    "version": "1.0.0",
+    "compatVersion": "1.0.0",
+    "format": "1",
+    "output": "${package.dir}/build",
+    "local": true,
+    "classpath": [
+        "${package.dir}/src",
+        "${package.dir}/${toolkit.name}/src"
+    ],
+    "overrides": [
+        "${package.dir}/overrides",
+        "${package.dir}/${toolkit.name}/overrides"
+    ],
+    "framework": "ext",
+    "toolkit": "classic",
+    "requires": []
+}

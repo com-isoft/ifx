@@ -1,0 +1,25 @@
+/* 调整body上边框为1px */
+
+.ix-tree {
+    .x-grid-body {
+        border-top-width: 1px;
+    }
+}
+
+
+/* 去掉焦点边框 */
+
+.ix-tree-no-focus .x-grid-row-checker:focus {
+    outline-width: 0 !important;
+}
+
+.ix-tree-no-focus .x-grid-item-focused .x-grid-cell-inner:before {
+    border-width: 0 !important;
+}
+
+
+/* 去掉图标 */
+
+.ix-tree-noicon .x-tree-icon {
+    display: none !important;
+}

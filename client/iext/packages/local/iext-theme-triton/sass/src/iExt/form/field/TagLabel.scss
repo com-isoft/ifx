@@ -1,0 +1,8 @@
+.ix-tag-label {
+    /* 去掉输入框的三个边框 */
+    .x-form-trigger-wrap-default {
+        border-top-width: 0 !important;
+        border-left-width: 0 !important;
+        border-right-width: 0 !important;
+    }
+}

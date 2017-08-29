@@ -1,0 +1,49 @@
+.ix-apps-body {
+    padding: 30px;
+    background-color: #f0eeee;
+    .x-autocontainer-innerCt {
+        >* {
+            margin: auto;
+        }
+    }
+}
+
+.ix-apps-view {
+    .x-view-item-focused {
+        outline-width: 0 !important;
+    }
+}
+
+.ix-apps-item {
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+
+.ix-apps-item-over {
+    background-color: #f5f5f5;
+}
+
+.ix-apps-item-selected {
+    outline-width: 0 !important;
+    border-color: #adadad;
+    background-color: #e6e6e6;
+}
+
+.ix-apps-item h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.ix-apps-thumb {
+    border-radius: 5px;
+    width: 64px;
+}

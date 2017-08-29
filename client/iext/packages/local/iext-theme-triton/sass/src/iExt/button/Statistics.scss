@@ -1,0 +1,22 @@
+.ix-stat-btn {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    .ix-stat-btn-value {
+        color: #000;
+        font-weight: bold;
+        line-height: 1.0;
+        display: block;
+    }
+    .ix-stat-btn-text {
+        color: $base-color;
+        line-height: 1.0;
+        display: block;
+    }
+}
+
+// google 浏览器对于small显示有问题，修订如下
+// 对于 safri 浏览器还需要hack？
+.ix-stat-btn.x-btn-default-toolbar-small {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

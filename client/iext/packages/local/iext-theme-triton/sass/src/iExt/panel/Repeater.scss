@@ -1,0 +1,9 @@
+.ix-repeater-body {
+    border-top: solid 1px #adadad !important;
+}
+
+.ix-list-container-body {
+    .ix-repeater-body {
+        border-top-width: 0 !important;
+    }
+}

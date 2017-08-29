@@ -1,0 +1,19 @@
+{
+    "name": "iext-locale",
+    "type": "locale",
+    "locale": "izh_CN",
+    "creator": "iSoft",
+    "summary": "iext.locale.izh_CN",
+    "detailedDescription": "iext 中文语言扩展包",
+    "version": "1.0.0",
+    "compatVersion": "1.0.0",
+    "format": "1",
+    "output": "${package.dir}/build",
+    "local": true,
+    "overrides": [
+        "${package.dir}/overrides"
+    ],
+    "framework": "ext",
+    "toolkit": "classic",
+    "requires": []
+}

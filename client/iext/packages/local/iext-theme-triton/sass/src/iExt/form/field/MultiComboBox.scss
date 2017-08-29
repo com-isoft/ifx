@@ -1,0 +1,17 @@
+.ix-multi-item {
+    display: inline-block;
+    width: 20px;
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: #919191;
+}
+
+.ix-multi-item:before {
+    content: "\f096";
+}
+
+.x-boundlist-selected {
+    .ix-multi-item:before {
+        content: "\f046";
+    }
+}
